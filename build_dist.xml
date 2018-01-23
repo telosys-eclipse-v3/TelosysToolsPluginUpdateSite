@@ -1,0 +1,28 @@
+<project name="TelosysToolsUpdateSite" default="build">
+	<tstamp>
+	    <format property="DSTAMP" pattern="yyyy-MM-dd" />
+	</tstamp>
+
+	<property name="version"   value="3.0.0" />
+	<property name="dist_dir"  value="./dist" />
+	<property name="zip_file"  value="${dist_dir}/TelosysTools-${version}-UpdateSite-${DSTAMP}.zip" />
+
+	<!-- ============================================================================== -->
+	<!--                                                      -->
+	<!-- ============================================================================== -->
+	<target name="build" >
+		<echo message="Build ... file : ${zip_file} " />
+		<mkdir dir="${dist_dir}" />
+		<delete file="${zip_file}" />
+		
+		<zip destfile="${zip_file}"  >				
+			<zipfileset dir="./plugins"     prefix="plugins" />
+			<zipfileset dir="./features"    prefix="features" />
+			<zipfileset file="./artifacts.jar"  />
+			<zipfileset file="./content.jar"    />
+			<zipfileset file="./site.xml"       />
+		</zip>
+		
+	</target>
+	
+</project>

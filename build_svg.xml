@@ -1,0 +1,30 @@
+<project default="save">
+	
+	<tstamp>
+	    <format property="DSTAMP" pattern="yyyy-MM-dd" />
+	</tstamp>
+
+	<property name="dest_dir"  value="../(backup)/${DSTAMP}" />
+	
+	<property name="zip_file"  value="${dest_dir}/TelosysToolsPluginUpdateSite-${DSTAMP}-${TSTAMP}.zip" />
+
+	<!-- ============================================================================== -->
+	<target name="save" >
+		<echo message="Project name : ${project.name}  " />
+		
+		<echo message="DSTAMP : ${DSTAMP}  TSTAMP : ${TSTAMP}  " />
+		
+		<echo message="Create dir : ${dest_dir} " />
+		<mkdir dir="${dest_dir}"/>
+		
+		<echo message="Zip file : ${zip_file}  " />
+		<zip destfile="${zip_file}"  >	
+			<zipfileset file="./build_dist.xml" />
+			<zipfileset file="./build_clean.xml" />
+			<zipfileset file="./build_svg.xml" />
+			<zipfileset file="./site.xml"      />
+			<zipfileset dir="./doc"         prefix="doc"         />
+		</zip>
+	</target>
+
+</project>
