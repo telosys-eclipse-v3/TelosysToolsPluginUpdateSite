@@ -2,7 +2,7 @@ Before - Check version in :
 
  * "TelosysToolsPlugin" project  
     . "plugin.xml" ( tabs "Overview", "Runtime / Classpath" )
-    . "PluginBuildInfo.java" ( BUILD_ID = "GA", BUILD_DATE )
+    . "PluginBuildInfo.java" ( BUILD_ID = "0XX", BUILD_DATE = "AAAA-MM-DD" )
     
  * "TelosysToolsPluginHelp" project  
     . "plugin.xml" ( tab "Overview"  )

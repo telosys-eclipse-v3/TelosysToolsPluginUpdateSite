@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.telosys.tools.eclipse.feature_3.0.0.jar" id="org.telosys.tools.eclipse.feature" version="3.0.0"/>
+   <feature url="features/org.telosys.tools.eclipse.feature_3.0.0.014.jar" id="org.telosys.tools.eclipse.feature" version="3.0.0.014"/>
    <category-def name="TelosysToolbox" label="Telosys Toolbox">
       <description>
          Telosys code generator
