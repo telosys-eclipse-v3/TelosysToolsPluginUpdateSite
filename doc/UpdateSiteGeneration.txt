@@ -43,4 +43,3 @@ How to generate the "Update Site" :
  . Unzip / directory
  . In Eclipse : Installation / "Local Site" -> this directory
 ------------------------------------------------------------------
-------------------------------------------------------------------
