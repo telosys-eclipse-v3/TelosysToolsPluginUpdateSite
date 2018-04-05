@@ -38,8 +38,8 @@ How to generate the "Update Site" :
  - Run "build_dist.xml" ANT BUILD
  Result : dist/TelosysTools-X.X.X-UpdateSite.zip
  
----------------------------------------------------------
+------------------------------------------------------------------
  Plugin Installation / Eclipse :
  . Unzip / directory
  . In Eclipse : Installation / "Local Site" -> this directory
---------------------------------------------------------- 
+------------------------------------------------------------------
