@@ -3,7 +3,7 @@
 	    <format property="DSTAMP" pattern="yyyy-MM-dd" />
 	</tstamp>
 
-	<property name="version"   value="3.0.0.014" />
+	<property name="version"   value="3.1.1.001" />
 	<property name="dist_dir"  value="./dist" />
 	<property name="zip_file"  value="${dist_dir}/TelosysTools-${version}-UpdateSite-${DSTAMP}.zip" />
 

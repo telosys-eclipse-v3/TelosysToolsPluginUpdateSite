@@ -2,6 +2,8 @@ Before - Check version in :
 
  * "TelosysToolsPlugin" project  
     . "plugin.xml" ( tabs "Overview", "Runtime / Classpath" )
+        . "MANIFEST.MF" ( Bundle-Version: X.X.X.xxx )
+        . "build.properties" ( telosys-tools-all-X.X.X.jar )
     . "PluginBuildInfo.java"    : check build id and date ( BUILD_ID = "0XX", BUILD_DATE = "AAAA-MM-DD" )
     . "PluginLoggerConfig.java" : check LOG flag is "false" 
     
