@@ -1,4 +1,6 @@
-Before - Check version in :
+Before build
+
+Check version in :
 
  * "TelosysToolsPlugin" project  
     . "plugin.xml" ( tabs "Overview", "Runtime / Classpath" )
@@ -12,6 +14,7 @@ Before - Check version in :
     
  * "TelosysToolsPluginFeature" project
     . "feature.xml" ( tabs "Overview", "Information", "Plug_ins" )
+      Also check copyright (c) year 
     
  * "TelosysToolsUpdateSite" project  
     . "build_dist.xml"
