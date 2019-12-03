@@ -11,16 +11,31 @@ Check version in :
     
  * "TelosysToolsPluginHelp" project  
     . "plugin.xml" ( tab "Overview"  )
+        . "MANIFEST.MF" ( Bundle-Version: X.X.X.xxx )
     
  * "TelosysToolsPluginFeature" project
-    . "feature.xml" ( tabs "Overview", "Information", "Plug_ins" )
-      Also check copyright (c) year 
+    . "feature.xml" ( tabs "Overview", "Information", "Plug-ins" )
+        <feature version="X.X.X.xxx" />
+        <plugin id="org.telosys.tools.eclipse.plugin"      version="X.X.X.xxx" />
+        <plugin id="org.telosys.tools.eclipse.plugin.help" version="X.X.X.xxx" />
+        <copyright> Copyright (c) 2008-XXX  </copyright> : check year 
     
  * "TelosysToolsUpdateSite" project  
     . "build_dist.xml"
+       <property name="version"   value="X.X.X.xxx" />
     . "site.xml" ( check feature version )
+       <feature url="features/org.telosys.tools.eclipse.feature_X.X.X.xxx.jar"  version="X.X.X.xxx" />
 
 --------------------------------------------------------------------------------
+
+Search / File 
+
+   Containing text    : X.X.X.xxx
+
+   File name patterns : *.*
+
+--------------------------------------------------------------------------------
+
 How to generate the "Update Site" :
 
 1) Clean the existing artifacts with ANT : "build_clean.xml" + "F5"
