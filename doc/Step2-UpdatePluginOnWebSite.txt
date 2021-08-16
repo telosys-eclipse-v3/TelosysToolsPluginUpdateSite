@@ -1,0 +1,6 @@
+
+Unzip in a temp directory 
+
+On the web server :
+- Create a directory for each version ( eg "v330" )
+- Copy from local temp directory to host
