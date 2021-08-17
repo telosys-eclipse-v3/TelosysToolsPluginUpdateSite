@@ -1,0 +1,16 @@
+
+New version on Eclipse Marketplace :
+
+[ Edit ] 
+
+[ Add a Solution Version ]
+
+ - Eclipse Version      : Neon (4.6) and +
+ - Supported Platforms  : Windows, Mac, Linux/GTK
+ - Minimum Java Version : Java 8
+ - Feature ID           : org.telosys.tools.eclipse.feature
+ - Install state        : Required 
+
+Remove previous version or move the last version at the beginning of the list
+
+Check last version with Eclipse / Eclipse Marketplace : "Recent" tab

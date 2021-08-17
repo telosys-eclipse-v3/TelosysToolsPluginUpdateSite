@@ -3,4 +3,6 @@ Unzip in a temp directory
 
 On the web server :
 - Create a directory for each version ( eg "v330" )
-- Copy from local temp directory to host
+- Copy from local temp directory to host :
+  . vXXX
+  . plugin (stable directory for Eclipse marketplace "Check for updates" )

@@ -60,7 +60,9 @@ How to generate the "Update Site" :
  Result : dist/TelosysTools-X.X.X-UpdateSite.zip
  
 ------------------------------------------------------------------
- Plugin Installation / Eclipse :
- . Unzip / directory
- . In Eclipse : Installation / "Local Site" -> this directory
+ Test local plugin installation / Eclipse :
+ . Unzip in temp directory
+ . In Eclipse : Installation / "Local Site" -> the temp directory
+ or
+ . In Eclipse : Installation / "Local Site" -> the directory in Eclipse plugin workspace
 ------------------------------------------------------------------
